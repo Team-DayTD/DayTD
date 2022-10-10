@@ -1,0 +1,72 @@
+<!-- 메인 페이지 -->
+
+<!-- 현재 위치 받아오는 코드 -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=13cf5f81e7b50b54654a5493e3e67703"></script>
+<script>
+
+    var lat, lon;
+
+    // HTML5의 geolocation으로 사용할 수 있는지 확인합니다
+    if (navigator.geolocation) {
+
+        // GeoLocation을 이용해서 접속 위치를 얻어옵니다
+        navigator.geolocation.getCurrentPosition(function(position) {                
+
+            lat = position.coords.latitude;
+            lon = position.coords.longitude;
+            
+            // <input> tag에 값을 넣음 (jQuery)
+            $('input[name=lat]').attr('value',lat);
+            $('input[name=lon]').attr('value',lon);
+            document.locationForm.submit();
+            
+            
+        });
+
+    } else { 
+        var locPosition = new kakao.maps.LatLng(33.450701, 126.570667),
+            message = 'geolocation can not use'
+    }
+
+    // 자동으로 위도 경도 값이 제출되도록 함
+    
+    // document.getElementById("lon").submit()
+    
+</script>
+<script>
+    // document.getElementById("location").submit()
+    // document.locationForm.submit()
+</script>
+
+<body>
+    <form name="locationForm" id="location" action="" method="GET" onclick="insert();">
+        <div>
+            <label for="lat"></label>
+            <input type="text" name="lat" id="lat" class="lat" value=""/>
+        </div>
+        <div>
+            <label for="lon"></label>
+            <input type="text" name="lon" id="lon" class="lon" value=""/>
+        </div>
+        
+        <input type="submit" />
+        
+    </form>
+</body>
+
+{% load static %}
+{% block content %}
+    <h5 class="card-title">메인 페이지</h5>
+
+        {{temperture}}
+
+        {{rain}}
+
+        {{sky}}
+
+        {{humid}}        
+
+    <a href="{% url 'our_weather:detail' %}" class="btn btn-primary">>> 자세히</a>          
+{% endblock %}

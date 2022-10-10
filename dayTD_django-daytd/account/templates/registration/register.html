@@ -1,0 +1,19 @@
+
+{% block title %}- Registration{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 panel panel-default">
+            <div class="alert alert-info">Please enter your account information.</div>
+            <form action="" method="post">
+                <!-- 폼에서 작성한 것을 자동으로 html로 변환해줌 디자인을 하려면,,, 수동으로 form에서 불러와서 해야할듯.. ^_^..-->
+                {{form.as_p}} 
+                <!-- <input id="birthday", type="date"> -->
+                {% csrf_token %}
+                <input class="btn btn-primary" type="submit" value="Register">
+            </form>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+{% endblock %}
