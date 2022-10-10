@@ -47,3 +47,6 @@ We've turned this data into the category we want. So the final category is
 DayTD
 ├── daytd_django-daytd : Backend djano code
 ├── dayTD_client:Frontend react code
+
+## contact
+If you have any question, please sent e-mail [here](hyemin086@naver.com)
