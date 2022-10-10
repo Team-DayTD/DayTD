@@ -37,8 +37,9 @@ We've turned this data into the category we want. So the final category is
 
 ## AI model
 **Mobilenet**
-- 선정 이유: 컴퓨터 성능이 제한되거나 배터리 퍼포먼스가 중요한 곳에서 CNN 구조를 사용하기 위해 경량화된 Mobilenet 모델 사용
+- 모델 선정 이유: 컴퓨터 성능이 제한되거나 배터리 퍼포먼스가 중요한 곳에서 CNN 구조를 사용하기 위해 경량화된 Mobilenet 모델 사용
 - Channel Reduction, Depthwse Separable Convolutions, Distillation & Compression
+- keras 모듈에서 imagenet으로 pretrained 된 mobilenet 가져와 Fully Connected Layer에서 Feature Vector 
 
 ## usage
 ```
