@@ -1,0 +1,439 @@
+{
+  "codyImg": [
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(11).jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(1).jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(2).jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(3).jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(4).jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(5).jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(6).jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(7).jpg",
+      "clothe": "한벌의상"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(8).jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(9).jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(10).jpg",
+      "clothe": "한벌의상"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(12).jpg",
+      "clothe": "한벌의상"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(13).jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "(14).jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "ect",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "143367.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "ect",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "246081.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "ect",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "283929.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "ect",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "479307.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "ect",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "1136685.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "lovely",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "6365.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "lovely",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "15830.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "lovely",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "47577.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "lovely",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "103663.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "lovely",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "103982.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "lovely",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "259796.jpg",
+      "clothe": "상하의"
+    }
+    ,
+    {
+      "type": "vintage",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "15726.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "vintage",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "86467.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "vintage",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "243375.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "vintage",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "297311.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "vintage",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "1252595.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "sexy",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "39110.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "sexy",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "58887.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "sexy",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "1161345.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "sexy",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "1213694.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "sexy",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "1299905.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "simple&basic",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "1674.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "simple&basic",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "2646.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "simple&basic",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "20995.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "simple&basic",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "61389.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "simple&basic",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "80076.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "simple&basic",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "168915.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "simple&basic",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "715056.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "simple&basic",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "746927.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "unique",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "15334.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "unique",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "145799.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "unique",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "225186.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "unique",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "305751.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "unique",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "616823.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "unique",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "1209256.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "unique",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "101010.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "unique",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "142791.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "unique",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "384639.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "unique",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "444026.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "unique",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "511573.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "2402.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "3290.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "11454.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "12168.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "25166.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "27407.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "33509.jpg",
+      "clothe": "상하의"
+    },
+    {
+      "type": "casual",
+      "gender": "여성",
+      "ages": "20대",
+      "image": "37183.jpg",
+      "clothe": "상하의"
+    }
+  ]
+}

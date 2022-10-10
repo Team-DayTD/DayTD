@@ -1,0 +1,57 @@
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/animation';
+@import 'base/base';
+@import 'base/color';
+@import 'base/typography';
+
+@import 'components/codyMy';
+@import 'components/codyMyFilter';
+@import 'components/likeFilter';
+@import 'components/weather';
+
+@import 'layout/footer';
+@import 'layout/navbar';
+
+@import 'pages/CodyRecoPage';
+@import 'pages/like';
+@import 'pages/myPage';
+@import 'pages/signIn';
+@import 'pages/signUp';
+
+@import 'shared/carousel';
+@import 'shared/cateBtn';
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.app {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $white;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+// .container{
+//     width: 80%;
+//     max-width: $maxWidth;
+//     margin: auto;
+//     @media (max-width: 767px) {
+//         width: 100%;
+//     }
+// }
+
+// .title{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     font-size: $fontMedium;
+//     height: 52px;
+// }

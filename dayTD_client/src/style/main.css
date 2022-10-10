@@ -1,0 +1,984 @@
+/**
+ * Base
+ */
+body {
+  font-family: "SDSamliphopangche_Outline";
+  padding: 0;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+button *,
+[type=button] *,
+[type=reset] *,
+[type=submit] * {
+  pointer-events: none;
+}
+
+form,
+figure,
+figcaption,
+h1,
+h2,
+h3,
+h4,
+dl,
+dd,
+ul,
+ol,
+p,
+blockquote {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+button i,
+button svg {
+  pointer-events: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+  vertical-align: middle;
+}
+
+textarea {
+  resize: none;
+}
+
+[disabled],
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+[disabled] *,
+.disabled * {
+  pointer-events: none;
+}
+
+/*
+ * Reset
+ */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+[disabled] {
+  cursor: not-allowed;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+img {
+  border-style: none;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+button,
+input,
+select,
+textarea,
+optgroup {
+  font: inherit;
+  margin: 0;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+@font-face {
+  font-family: "KoPubDotumMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Font size */
+/* Font weight */
+.codyMy {
+  width: 100%;
+  padding: 1.5em 0;
+  padding-bottom: 3em;
+  max-width: 600px;
+  margin: auto;
+}
+.codyMy .title {
+  text-align: center;
+  padding: 0.8em 0px;
+}
+.codyMy .codyBox {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 90%;
+  box-shadow: 0px 0px 6px 0px rgb(217, 217, 217);
+}
+@media (min-width: 700px) {
+  .codyMy .codyBox {
+    width: 70%;
+    padding-bottom: 80%;
+  }
+}
+.codyMy .codyBox .codyImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, 0);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.codyMy .codyBox .heart {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 20px;
+  color: gray;
+  z-index: 1;
+  cursor: pointer;
+}
+.codyMy .codyBox .heartActive {
+  color: #FF0000;
+}
+.codyMy .btnBox {
+  width: 90%;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+}
+.codyMy .btnBox .nextBtn {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: #175A97;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.filterContainer {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #e6eef5;
+}
+.filterContainer .showFilter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filterContainer .filter, .filterContainer .clothes, .filterContainer .style, .filterContainer .loc {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+}
+.filterContainer .clotheItem, .filterContainer .styleItem, .filterContainer .select {
+  padding: 4px 10px;
+  margin: 4px;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid #69a0d3;
+  font-size: 14px;
+}
+.filterContainer .select {
+  border: 1px solid #8dbd77;
+  border-radius: 4px;
+}
+.filterContainer .active {
+  cursor: default;
+}
+.filterContainer .clotheItem:hover, .filterContainer .styleItem:hover, .filterContainer .active {
+  box-sizing: border-box;
+  background-color: #69a0d3;
+  border: 1px solid #69a0d3;
+  color: white;
+}
+.filterContainer .option {
+  font-size: 18px;
+  cursor: pointer;
+  transition: all ease 300ms;
+}
+.filterContainer .Hidefilter {
+  transition: all 300ms;
+  overflow: hidden;
+}
+.filterContainer .showFilterBox {
+  visibility: visible;
+  height: 120px;
+}
+.filterContainer .hideFilterBox {
+  visibility: hidden;
+  height: 0px;
+}
+.filterContainer .turn {
+  transform: rotate(180deg);
+}
+.filterContainer .saveBtn {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  background-color: #69a0d3;
+  color: white;
+  width: 50px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 20px;
+}
+.filterContainer .hideSaveBtn {
+  opacity: 0;
+}
+
+.likeFilterContainer {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #e6eef5;
+}
+.likeFilterContainer .clothes, .likeFilterContainer .style {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.likeFilterContainer .clotheItem, .likeFilterContainer .styleItem {
+  padding: 4px 10px;
+  margin: 4px;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid #69a0d3;
+  font-size: 14px;
+}
+.likeFilterContainer .clotheItem:hover, .likeFilterContainer .styleItem:hover, .likeFilterContainer .active {
+  box-sizing: border-box;
+  background-color: #69a0d3;
+  border: 1px solid #69a0d3;
+  color: white;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background: center/cover no-repeat url(../../../public/images/background.jpg);
+  box-shadow: 0px 4px 6px 0px rgb(217, 217, 217);
+  margin-bottom: 4em;
+}
+.weather .weatherContainer {
+  margin: auto;
+  color: white;
+  max-width: 600px;
+  text-align: start;
+}
+.weather .weatherContainer .todayTxt {
+  font-size: 1em;
+  font-weight: 400;
+}
+.weather .weatherContainer .today {
+  font-size: 1.5em;
+  margin: 0.2em 0 0.5em 0;
+}
+.weather .weatherContainer .day {
+  font-size: 0.7em;
+  font-weight: 400;
+}
+.weather .weatherContainer .weatherBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather .weatherContainer .weatherBox .weatherImg {
+  width: 7em;
+  height: 7em;
+}
+.weather .weatherContainer .weatherBox .temperature {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 8em;
+}
+.weather .weatherContainer .weatherBox .temperature .TMPRT {
+  font-size: 2.8em;
+}
+.weather .weatherContainer .weatherBox .temperature .TMPRT_MinMax {
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+.weather .weatherContainer .weatherBox .temperature .locIcon {
+  font-size: 0.8em;
+  margin-right: 0.5em;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(48, 48, 48);
+  margin-top: 20px;
+}
+.footer h5 {
+  margin: 0;
+}
+.footer .githubIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.footer .githubIcon:hover {
+  color: #69a0d3;
+}
+.footer .blue {
+  color: #69a0d3;
+}
+.footer .discription {
+  text-align: start;
+  width: 70%;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px 20px;
+  color: white;
+  font-size: 14px;
+}
+@media (max-width: 700px) {
+  .footer .discription {
+    width: 100%;
+  }
+}
+
+.navContainer {
+  width: 100%;
+  height: 2em;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background-color: #175A97;
+}
+.navContainer .nav {
+  width: 70%;
+  height: 2em;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+  .navContainer .nav {
+    width: 90%;
+  }
+}
+.navContainer .nav .logo {
+  font-size: 0.9em;
+}
+.navContainer .nav .menu {
+  display: flex;
+}
+.navContainer .nav .menu .item {
+  font-size: 0.9em;
+  margin-left: 0.8em;
+}
+.navContainer .nav .menu .item :hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px 0px rgb(217, 217, 217);
+}
+
+.recoContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recoContainer .btnContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  max-width: 600px;
+  height: 3em;
+  padding-bottom: 5px;
+  background-color: makerWhite;
+}
+@media (max-width: 700px) {
+  .recoContainer .btnContainer {
+    width: 95%;
+  }
+}
+.recoContainer .content_container {
+  position: relative;
+  width: 70%;
+}
+@media (max-width: 700px) {
+  .recoContainer .content_container {
+    width: 95%;
+  }
+}
+
+.like {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 600px;
+}
+@media (max-width: 700px) {
+  .like {
+    width: 95%;
+  }
+}
+.like .title {
+  text-align: center;
+  margin: 20px;
+  margin-top: 60px;
+}
+.like .likeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.like .likeContainer .imgBox {
+  position: relative;
+  width: 30%;
+  height: auto;
+  margin: 5px;
+  padding-bottom: 35%;
+  overflow: hidden;
+  box-shadow: 0px 0px 6px 0px rgb(217, 217, 217);
+}
+.like .likeContainer .imgBox .codyImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: translate(-50%);
+}
+
+.myPage {
+  width: 100%;
+  height: 100vh;
+  max-width: 600px;
+  flex: 1;
+  margin: auto;
+}
+.myPage .title {
+  text-align: center;
+  margin: 20px;
+  margin-top: 60px;
+}
+.myPage .title2 {
+  font-size: 1.3em;
+  border-bottom: 1px solid #e8e7e6;
+  padding: 10px 20px;
+}
+.myPage .optContainer {
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: solid 1px #e8e7e6;
+  text-align: start;
+}
+@media (max-width: 700px) {
+  .myPage .optContainer {
+    width: 100%;
+  }
+}
+.myPage .optContainer .optBox {
+  padding: 10px 20px;
+}
+.myPage .optContainer .subTitle {
+  font-size: 1.1em;
+  padding-bottom: 6px;
+}
+.myPage .optContainer .input, .myPage .optContainer .output {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.myPage .optContainer .input {
+  background-color: #e8e7e6;
+  border: 1px solid #626262;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+.myPage .optContainer .output {
+  padding: 0 10px;
+}
+.myPage .optContainer .btnBox {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.myPage .optContainer .saveBtn {
+  width: 15%;
+  height: 30px;
+  color: white;
+  background-color: #175A97;
+  border-radius: 4px;
+}
+.myPage .optContainer .invalidInput {
+  font-size: 0.8em;
+  color: #FF0000;
+  padding-left: 10px;
+  padding-bottom: 2px;
+}
+
+.modal {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: default;
+}
+.modal .loginContainer {
+  width: 60%;
+  max-width: 500px;
+  min-width: 350px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+  margin: auto;
+  padding: 20px 0px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.modal .loginContainer .close {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 24px;
+  color: #626262;
+  cursor: pointer;
+}
+.modal .loginContainer .logo {
+  color: #175A97;
+  font-size: 24px;
+}
+.modal .loginContainer .formBox {
+  margin-top: 20px;
+  width: 80%;
+}
+.modal .loginContainer .formBox .input {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 0px 20px;
+  border: 1px solid #626262;
+}
+.modal .loginContainer .formBox h4 {
+  text-align: start;
+  margin: 0;
+  margin-left: 10px;
+}
+.modal .loginContainer .noti {
+  width: 80%;
+  text-align: start;
+  margin-left: 10px;
+  color: white;
+  -webkit-animation: vibration 0.1s infinite;
+          animation: vibration 0.1s infinite;
+}
+.modal .loginContainer .active {
+  color: #FF0000;
+}
+.modal .loginContainer .option {
+  width: 80%;
+  font-size: 14px;
+  text-align: end;
+  margin: 10px 0;
+}
+.modal .loginContainer .option .signUp {
+  text-decoration: underline;
+}
+.modal .loginContainer .submit {
+  width: 80%;
+}
+.modal .loginContainer .submit button {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background: #175A97;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.backContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background-color: #e8e7e6;
+}
+.backContainer .signUpContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  max-width: 600px;
+  padding: 10px 20px;
+  margin: 50px 0 30px 0;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px 0px rgb(217, 217, 217);
+}
+@media (max-width: 700px) {
+  .backContainer .signUpContainer {
+    width: 100%;
+  }
+}
+.backContainer .signUpContainer .title {
+  margin: 20px;
+  font-size: 24px;
+}
+.backContainer .signUpContainer .signUpBox {
+  width: 80%;
+  margin: auto;
+  padding: 5px 0;
+  text-align: start;
+}
+.backContainer .signUpContainer .signUpBox .subTitle {
+  font-weight: 700;
+  font-size: 18px;
+}
+.backContainer .signUpContainer .signUpBox .idCheckBtn {
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  background: #175A97;
+  color: white;
+  font-size: 14px;
+}
+.backContainer .signUpContainer .signUpBox .idCheck {
+  background-color: rgb(192, 192, 192);
+  cursor: default;
+}
+.backContainer .signUpContainer .signUpBox .input, .backContainer .signUpContainer .signUpBox .select, .backContainer .signUpContainer .signUpBox .radio {
+  padding: 2px;
+  margin: 3px 5px 3px 0px;
+}
+.backContainer .signUpContainer .signUpBox .radio {
+  width: 30px;
+}
+.backContainer .signUpContainer .signUpBox .select {
+  width: 60px;
+}
+.backContainer .signUpContainer .signUpBox .star {
+  color: #FF0000;
+}
+.backContainer .signUpContainer .singUpSubmit {
+  width: 80%;
+  height: 50px;
+  border-radius: 5px;
+  margin: 20px auto;
+  background: #175A97;
+  color: white;
+  letter-spacing: 10px;
+  font-weight: 700;
+}
+.backContainer .signUpContainer .noti {
+  font-size: 14px;
+  color: white;
+  text-align: start;
+}
+.backContainer .signUpContainer .active {
+  color: #FF0000;
+}
+
+.carouselContainer {
+  position: relative;
+  margin: 0 auto;
+  padding: 0.5em 0.5em;
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+}
+.carouselContainer .title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.carouselContainer .codyBox .imgBox {
+  box-shadow: 0px 0px 6px 0px rgb(217, 217, 217);
+  position: relative;
+  width: 95%;
+  padding-bottom: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.carouselContainer .codyBox .imgBox .codyImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cateBtn {
+  display: block;
+  position: relative;
+  float: left;
+  width: 120px;
+  padding: 0;
+  margin: 0 20px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 2em;
+  color: black;
+  background: white;
+  transition: all 0.15s;
+  box-shadow: 0px 4px 0px -2px #175A97;
+}
+
+.cateBtn:hover {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 0px 0px #175A97;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}/*# sourceMappingURL=main.css.map */

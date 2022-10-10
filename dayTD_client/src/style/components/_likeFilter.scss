@@ -1,0 +1,28 @@
+.likeFilterContainer{
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: $mainLight2;
+  .clothes, .style{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;    
+  }
+  .clotheItem, .styleItem{
+    padding: 4px 10px;
+    margin: 4px;
+    background-color: $white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid $mainLight1;
+    font-size: $fontMicro;
+  }
+  .clotheItem:hover, .styleItem:hover, .active{
+    box-sizing: border-box;
+    background-color: $mainLight1;
+    border: 1px solid $mainLight1;
+    color: $white;
+  }
+}

@@ -1,0 +1,31 @@
+.footer{
+    width: 100vw;
+    background-color: rgb(48, 48, 48);
+    margin-top: 20px;
+    h5{
+        margin: 0;
+    }
+    .githubIcon{
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .githubIcon:hover{
+        color: $mainLight1;
+    }
+    .blue{
+        color: $mainLight1;
+    }
+    .discription{
+        text-align: start;
+        width: 70%;
+        max-width: $maxWidth;
+        margin: auto;
+        padding: 30px 20px;
+        color: $white;
+        font-size: $fontMicro;
+        @media (max-width: $mediaWidth) {
+            width: 100%;
+        }
+    }
+}
+
