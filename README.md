@@ -15,7 +15,8 @@ You can see the DayTD full system [here.](https://youtu.be/HL41fkaI8M0)
 
 - django==4.0.5
 - django-restframework==3.13.1
-- react
+- react==18.1.0
+- sass==1.54.4
 - MySQL
 - tensorflow==2.0.1
 
