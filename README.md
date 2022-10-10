@@ -34,3 +34,9 @@ We've turned this data into the category we want. So the final category is
 |Casual|스트리트, 스포티, 프레피, 힙합|
 |Unisex|젠더리스, 톰보이|
 |Etc|럭셔리, 아방가르드, 펑크, 밀리터리|
+
+## usage
+```
+DayTD
+├── daytd-django-daytd : Backend djano code
+├── :Frontend react code
