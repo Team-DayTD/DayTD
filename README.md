@@ -9,7 +9,7 @@ You can see the our project overview [this](https://www.notion.so/DayTD-project-
 This is main recommendation system.
 <img src="https://user-images.githubusercontent.com/76083173/194890895-d3311d99-d4ac-4f66-8e65-4f77f8724e78.gif" width="600">
 <br>
-You can see the DayTD full system [here.](동영상 링크)
+You can see the DayTD full system [here.](https://youtu.be/SxJkLKhm4VM)
 
 ## requirements
 
