@@ -46,4 +46,4 @@ We've turned this data into the category we want. So the final category is
 ```
 DayTD
 ├── daytd_django-daytd : Backend djano code
-├── :Frontend react code
+├── dayTD_client:Frontend react code
