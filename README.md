@@ -13,11 +13,11 @@ You can see the DayTD full system [here.](https://youtu.be/HL41fkaI8M0)
 
 ## requirements
 
-- django
-- django-restframework
+- django==4.0.5
+- django-restframework==3.13.1
 - react
 - MySQL
-- tensorflow=
+- tensorflow==2.0.1
 
 ## dataset
 We used clothes dataset from [AIHub](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100)
