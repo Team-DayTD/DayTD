@@ -35,6 +35,11 @@ We've turned this data into the category we want. So the final category is
 |Unisex|젠더리스, 톰보이|
 |Etc|럭셔리, 아방가르드, 펑크, 밀리터리|
 
+## AI model
+-Mobilenet
+  -선정 이유: 컴퓨터 성능이 제한되거나 배터리 퍼포먼스가 중요한 곳에서 CNN 구조를 사용하기 위해 경량화된 Mobilenet 모델 사용
+    -Channel Reduction, Depthwse Separable Convolutions, Distillation & Compression
+
 ## usage
 ```
 DayTD
