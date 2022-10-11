@@ -10,7 +10,7 @@ This is main recommendation system.
 <img src="https://user-images.githubusercontent.com/76083173/194900222-48f03b9b-71d8-43cb-b3eb-9e3ffbc14622.gif" width="600">
 
 
-You can see the DayTD full system [here.](https://youtu.be/HL41fkaI8M0)
+<br>You can see the DayTD full system [here.](https://youtu.be/HL41fkaI8M0)</br>
 
 ## requirements
 
@@ -48,6 +48,7 @@ We've turned this data into the category we want. So the final category is
 DayTD
 ├── daytd_django-daytd : Backend djano code
 ├── dayTD_client:Frontend react code
+```
 
 ## contact
 If you have any question, please sent e-mail [here](hyemin086@naver.com)
