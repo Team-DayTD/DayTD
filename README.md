@@ -22,7 +22,7 @@ This is main recommendation system.
 - tensorflow==2.0.1
 
 ## dataset
-We used clothes dataset from [AIHub](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100)
+We used clothes dataset from [AIHub](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=51)
 (public data)
 
 We've turned this data into the category we want. So the final category is
