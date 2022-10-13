@@ -11,4 +11,4 @@
 * django-restframework==3.13.1
 * tensorflow==2.0.1
 
-Please refer to the <br>requirement.txt</br>
+Please refer to the **requirement.txt**
