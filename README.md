@@ -29,7 +29,7 @@ We used clothes dataset from [AIHub](https://aihub.or.kr/aihubdata/data/view.do?
 (public data)
 
 We've turned this data into the category we want. So the final category is
-|Final changing category name|Original provided category|
+|Final changing category|Original provided category|
 |-------|----------|
 |SimpleBasic|리조트, 매니시, 모던, 클래식, 오피스|
 |lovely|소피스트케이티드, 페미닌, 로맨틱|
@@ -39,6 +39,8 @@ We've turned this data into the category we want. So the final category is
 |Casual|스트리트, 스포티, 프레피, 힙합|
 |Unisex|젠더리스, 톰보이|
 |Etc|럭셔리, 아방가르드, 펑크, 밀리터리|
+
+The results of images are closed.
 
 ## AI model
 **Mobilenet**
