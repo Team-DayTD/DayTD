@@ -49,7 +49,7 @@ We've turned this data into the category we want. So the final category is
 ## usage
 ```
 DayTD
-├── daytd_django-daytd : Backend djano code
+├── daytd_django-daytd : Backend django code
 ├── dayTD_client:Frontend react code
 ```
 
