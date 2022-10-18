@@ -12,3 +12,8 @@
 * tensorflow==2.0.1
 
 Please refer to the **requirement.txt**
+
+## usage
+- account : Making user account & Login  
+- clothes : recomendation to day clothes - DayTD(Day OOTD)
+- dust_checker / our_weather : Real-time weather information
