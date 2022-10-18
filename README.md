@@ -60,7 +60,7 @@ DayTD
 If you have any question, please sent e-mail [here](hyemin086@naver.com)
 
 ## members
-- [양혜민](hyemin086@naver.com) : leader
-- [이연우](lyu2015@gmail.com) 
-- [박송희](thdgml5539@naver.com)
-- [이현주](joo000705@naver.com)
+- 양혜민(hyemin086@naver.com) : leader
+- 이연우(lyu2015@gmail.com) 
+- 박송희(thdgml5539@naver.com)
+- 이현주(joo000705@naver.com)
