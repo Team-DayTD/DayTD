@@ -41,7 +41,7 @@ We've turned this data into the category we want. So the final category is
 |Unisex|젠더리스, 톰보이|
 |Etc|럭셔리, 아방가르드, 펑크, 밀리터리|
 
-The results of images are closed.
+The results category images are closed.
 
 ## AI model
 **Mobilenet**
