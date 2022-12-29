@@ -1,5 +1,9 @@
 # DayTD
 
+## award
+- KT 경진대회 TOP3 (22.02.15)
+- 캡스톤 디자인 경진대회 대상 (22.12.28)
+
 ## overview
 You can see the our project overview [this](https://www.notion.so/DayTD-project-e1c855fe39f84c38b74c20fa1dff0cc4) (KO)
 <br>
