@@ -5,7 +5,7 @@
 - 캡스톤 디자인 경진대회 대상 (22.12.28)
 
 ## overview
-You can see the our project overview [this](https://www.notion.so/DayTD-project-e1c855fe39f84c38b74c20fa1dff0cc4) (KO)
+You can see the our project overview [this](https://kiteday.notion.site/DayTD-3842a600f9c04b17bf112821a2af2dee) (KO)
 <br>
 >현대인들에게 패션은 이제 단순히 옷을 입는 것만이 아닌 자기 표현의 수단이다. 그런 점에서 패션은 자신의 개성을 드러내는 도구이다. 최근 거리두기가 해제되며 패션 업계 소비량은 증가했다. 이런 지점에서 나를 잘 아는 누군가가 오늘의 날씨를 고려해 코디를 추천해주면 어떨까? DayTD는 인공지능 기반으로 사용자 맞춤형 코디를 제공한다. 사용자의 위치를 실시간으로 반영할 뿐만 아니라 내가 가야할 다른 지역의 날씨를 가지고도 옷코디를 추천받을 수 있다.
 
